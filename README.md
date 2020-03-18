@@ -42,7 +42,7 @@ employment oppurtunities. Still it is not hundered percent possible to eliminate
 Therefore, we propose a solution to which helps to identify the fradulent jobs using text and meta data information modelling. <br>
 
 #### Data Understanding
-The Dataset has data from fake_job_posting.csv. There are total 18 columns in the data file.
+The Dataset has data from fake_job_posting.csv downloaded from Kaggle. It's a dataset of 48 MB, owned by Shivam Bansal. There are total 18 columns in the data file.
 - job_id - Unique Job ID
 - title - The title of the job ad entry.
 - location - Geographical location of the job ad.
