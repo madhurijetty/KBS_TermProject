@@ -2,6 +2,10 @@
 
 <br/>
 
+![Job Search](https://s3-ap-southeast-2.amazonaws.com/www.cryptoknowmics.com/crypto/wp-content/uploads/2019/11/jobss.jpg)
+
+<br/>
+
 ### Team Name: Data Diggers
 
 Team Members:
