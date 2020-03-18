@@ -16,11 +16,13 @@ Team Members:
 
 <br/>
 
-### Project Description
+### Project Description and Reasearch Question
 - The job market is hard enough to navigate without having to worry about some posting turning out to be a scam—or even just a dead end.
 - The project focuses on predicting which job descriptions are fraudulent or real using text data and meta data features.
 - Focuses on identifying key traits/features of job descriptions which are fraudulent in nature.
+- The main audience of this project will be the students and job- seekers looking for any job opportunities such as: internships, part-   time, full-time jobs.
 - The project has a data of 18K job descriptions out of which about 800 are fake.
+
 
 
 ### Analysis on GCP
@@ -67,7 +69,7 @@ The Dataset has data from fake_job_posting.csv downloaded from Kaggle. It's a da
 - fraudulent - target variable - Classification attribute.
 
 
-### Generally, EDA is useful for
+### Generally, EDA is useful for:
 - Delving into data
 - Examining important interrelationships between attributes
 - Identifying interesting subsets of the observations
@@ -75,5 +77,17 @@ The Dataset has data from fake_job_posting.csv downloaded from Kaggle. It's a da
 
 
 ### Preprocessing Phase
+- In this phase, First we'll try to find out which columns has null values in the dataset.
+- Then we will fill the missing values of the columns in the dataset.
+- We'll also look for outliers and try to remove them.
+- After that we'll check the correlation between the features (columns) to find out the most relevant features for the prediction.<br/>
+
+
+### DAshboard for Users and Dshboard for Data Engineers
+- We'll create two different dashboards one for our main audience/users i.e students or job-seekers and the other for Data Engineers.
+- Dashboard for users will be more simplified and clear so that users would be able to understand it easily.
+- Dashboard for Data Engineers 
+
+
 
 
