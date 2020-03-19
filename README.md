@@ -83,7 +83,7 @@ The Dataset has data from fake_job_posting.csv downloaded from Kaggle. It's a da
 - We will use differet models such as logistic regression and NLP prediction models to predict the the fake job posings.
 
 ##### Evaluation of Results
-- After training and building the models we will use AutoML Natural Langiage which provide and aggregate set of evaluation metrics how     well the model performs overall.
+- After training and building the models we will use AutoML Natural Language which provide and aggregate set of evaluation metrics how     well the model performs overall.
 - We will use precision and recall to measure how well the model is capturing information, and how much it's leaving out.
 - We will use confusion matrix that represents the percentage of times each label wll predicted in the training set during evaluation.
 - We will also use Mean Absolute error and mean squared rror to measure the distance between the predicted sentiment value and the         actual sentiment value.
