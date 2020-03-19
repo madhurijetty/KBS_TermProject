@@ -83,7 +83,7 @@ The Dataset has data from fake_job_posting.csv downloaded from Kaggle. It's a da
 - After that we'll check the correlation between the features (columns) to find out the most relevant features for the prediction.<br/>
 
 
-### DAshboard for Users and Dshboard for Data Engineers
+### Dashboard for Users and Dashboard for Data Engineers
 - We'll create two different dashboards one for our main audience/users i.e students or job-seekers and the other for Data Engineers.
 - Dashboard for users will be more simplified and clear so that users would be able to understand it easily.
 - Dashboard for Data Engineers 
