@@ -16,17 +16,13 @@ Team Members:
 
 <br/>
 
-### 1. Project Description and Reasearch Question
+### Project Description 
 - The job market is hard enough to navigate without having to worry about some posting turning out to be a scam—or even just a dead end.
 - The project focuses on predicting which job descriptions are fraudulent or real using text data and meta data features.
 - Focuses on identifying key traits/features of job descriptions which are fraudulent in nature.
 - The main audience of this project will be the students and job- seekers looking for any job opportunities such as: internships, part-   time, full-time jobs.
-- The project has a data of 18K job descriptions out of which about 800 are fake.
 
-
-
-### 2. Domain and Data: Data Desciption
-
+### 1. Reasearch Question
 Job boards can be host to scammers who are looking to defraud victims who are at their most suggestible and vulnerable 
 that is, job seekers who are so eager to land a position that they ignore the warning signs that all is not as it seems.
 Scammers know that finding a job can be tough. To trick people looking for honest work, scammers advertise where real employers 
@@ -35,6 +31,8 @@ ask you to pay them for their services before you get a job.
 <br> The major targets for the scammers are students. Colleges/Universities always explains the students the red flags regarding the 
 employment oppurtunities. Still it is not hundered percent possible to eliminate all the scams or save students from scams all the time.
 Therefore, we propose a solution to which helps to identify the fradulent jobs using text and meta data information modelling. <br>
+
+### 2. Domain and Data: Data Description
 
 #### A. Source and Size of Data
 The Dataset has data from fake_job_posting.csv downloaded from Kaggle. It's a dataset of 48 MB, owned by Shivam Bansal. There are total 18 columns in the data file.
@@ -74,8 +72,8 @@ The Dataset has data from fake_job_posting.csv downloaded from Kaggle. It's a da
 
 ##### Dashboard for Users and Dashboard for Data Engineers
 - We'll create two different dashboards one for our main audience/users i.e students or job-seekers and the other for Data Engineers.
-- Dashboard for users will be more simplified and clear so that users would be able to understand it easily.
-- Dashboard for Data Engineers will be detail oriented so that data engineers would be able to find specific jobs.
+- Dashboard for users will be more simplified and more action oriented for filters or parameters so that users would be able to           use it easily.
+- Dashboard for Data Engineers will be more advance.
 
 ##### GCP processing - ML
 - After cleaning the data and placing it in proper storage, we will start training dataset to run on AI platform.
@@ -90,7 +88,11 @@ The Dataset has data from fake_job_posting.csv downloaded from Kaggle. It's a da
 
 ##### Steps for production Model
 - To train and build the model we will use AutoML Natural Language UI.
-- 
+- After training, we will export the models for deployment on AI Platform Prediction.
+- Then deploy the models and get predictions.
+- Finally, we will evaluate the models.
 
+#### Final Dashboard for User Group
+- Final Dashboard will contain various charts identifying Fake job postings based on different factors such as: Company Profile,           Job-description, Benefits, Requirements, and Locations. 
 
 
