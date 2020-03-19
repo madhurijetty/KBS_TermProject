@@ -16,7 +16,7 @@ Team Members:
 
 <br/>
 
-### 1. Project Description and Reasearch Question
+### Project Description and Reasearch Question
 - The job market is hard enough to navigate without having to worry about some posting turning out to be a scam—or even just a dead end.
 - The project focuses on predicting which job descriptions are fraudulent or real using text data and meta data features.
 - Focuses on identifying key traits/features of job descriptions which are fraudulent in nature.
@@ -25,8 +25,19 @@ Team Members:
 
 
 
-### 2. Domain and Data: Data understanding 
+### Analysis on GCP
+- Research and Data understanding
+- EDA and Preprocessing phase
+- Dashboard for Users and Dashboard for Data Engineers
+- GCP - ML Processing
+- Evaluation
+- Production Model steps
+- Final Dashboard<br/><br/>
 
+
+### Research and Data understanding Phase
+
+#### Research Phase
 Job boards can be host to scammers who are looking to defraud victims who are at their most suggestible and vulnerable 
 that is, job seekers who are so eager to land a position that they ignore the warning signs that all is not as it seems.
 Scammers know that finding a job can be tough. To trick people looking for honest work, scammers advertise where real employers 
@@ -36,7 +47,7 @@ ask you to pay them for their services before you get a job.
 employment oppurtunities. Still it is not hundered percent possible to eliminate all the scams or save students from scams all the time.
 Therefore, we propose a solution to which helps to identify the fradulent jobs using text and meta data information modelling. <br>
 
-#### A. Source and Size of Data 
+#### Data Understanding
 The Dataset has data from fake_job_posting.csv downloaded from Kaggle. It's a dataset of 48 MB, owned by Shivam Bansal. There are total 18 columns in the data file.
 - job_id - Unique Job ID
 - title - The title of the job ad entry.
@@ -58,15 +69,14 @@ The Dataset has data from fake_job_posting.csv downloaded from Kaggle. It's a da
 - fraudulent - target variable - Classification attribute.
 
 
-#### B.Tentative plan for analysis on GCP
-
-
-### EDA is useful for:
+### Generally, EDA is useful for:
 - Delving into data
 - Examining important interrelationships between attributes
 - Identifying interesting subsets of the observations
 - Develop an initial idea of possible associations amongst the predictors, as well as between the predictors and the target variable.<br>
 
+
+### Tentative plan for analysis on GCP
 
 #### Preprocessing Phase
 - In this phase, First we'll try to find out which columns has null values in the dataset.
@@ -77,11 +87,8 @@ The Dataset has data from fake_job_posting.csv downloaded from Kaggle. It's a da
 #### Dashboard for Users and Dashboard for Data Engineers
 - We'll create two different dashboards one for our main audience/users i.e students or job-seekers and the other for Data Engineers.
 - Dashboard for users will be more simplified and clear so that users would be able to understand it easily.
-- Dashboard for Data Engineers 
-
-
-#### GCP processing - ML
-- In this phase we will be using
+- Dashboard for Data Engineers will be detail oriented so that data engineers would be able to find specific jobs.
+- Users dashboard contains  
 
 
 
