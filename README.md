@@ -6,7 +6,7 @@
 
 <br/>
 
-### Team Name: Data Diggers
+## Team Name: Data Diggers
 
 Team Members:
 1. Uma Sai Madhuri Jetty
@@ -16,7 +16,7 @@ Team Members:
 
 <br/>
 
-### Project Description 
+## Project Description 
 - The job market is hard enough to navigate without having to worry about some posting turning out to be a scam—or even just a dead end.
 - The project focuses on predicting which job descriptions are fraudulent or real using text data and meta data features.
 - Focuses on identifying key traits/features of job descriptions which are fraudulent in nature.
@@ -92,7 +92,7 @@ The Dataset has data from fake_job_posting.csv downloaded from Kaggle. It's a da
 - Then deploy the models and get predictions.
 - Finally, we will evaluate the models.
 
-#### Final Dashboard for User Group
+##### Final Dashboard for User Group
 - Final Dashboard will contain various charts identifying Fake job postings based on different factors such as: Company Profile,           Job-description, Benefits, Requirements, and Locations. 
 
 
