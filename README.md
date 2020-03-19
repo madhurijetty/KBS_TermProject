@@ -36,7 +36,7 @@ ask you to pay them for their services before you get a job.
 employment oppurtunities. Still it is not hundered percent possible to eliminate all the scams or save students from scams all the time.
 Therefore, we propose a solution to which helps to identify the fradulent jobs using text and meta data information modelling. <br>
 
-#### a. Source and Size of Data 
+#### A. Source and Size of Data 
 The Dataset has data from fake_job_posting.csv downloaded from Kaggle. It's a dataset of 48 MB, owned by Shivam Bansal. There are total 18 columns in the data file.
 - job_id - Unique Job ID
 - title - The title of the job ad entry.
@@ -58,7 +58,7 @@ The Dataset has data from fake_job_posting.csv downloaded from Kaggle. It's a da
 - fraudulent - target variable - Classification attribute.
 
 
-### Tentative plan for analysis on GCP
+#### B.Tentative plan for analysis on GCP
 
 
 ### EDA is useful for:
@@ -78,6 +78,10 @@ The Dataset has data from fake_job_posting.csv downloaded from Kaggle. It's a da
 - We'll create two different dashboards one for our main audience/users i.e students or job-seekers and the other for Data Engineers.
 - Dashboard for users will be more simplified and clear so that users would be able to understand it easily.
 - Dashboard for Data Engineers 
+
+
+#### GCP processing - ML
+- In this phase we will be using
 
 
 
