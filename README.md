@@ -58,17 +58,17 @@ The Dataset has data from fake_job_posting.csv downloaded from Kaggle. It's a da
 #### B.Tentative plan for analysis on GCP
 
 ##### Explratory Data Analysis
-- We will use Cloud AutoML Delving into data
+- We will use Cloud AutoML for delving into data
 - Examine important interrelationships between attributes
 - Identify interesting subsets of the observations
-- Develop an initial idea of possible associations amongst the predictors, as well as between the predictors and the target variable.<br>
+- Develop an initial idea of possible associations amongst the predictors, as well as between the predictors and the target variable.
 
 ##### Preprocessing Phase
 - In this phase, First we'll try to find out which columns has null values in the dataset.
 - Then we will fill the missing values of the columns in the dataset.
 - We'll also look for outliers and try to remove them.
 - After that we'll check the correlation between the features (columns) to find out the most relevant features for the prediction.
-- Using Google Cloud Dataflow, Google Dataprep, and Google Dataproc we will be cleaning and pre-procssing the dataset for better           analysis.
+- Using Google Cloud Dataflow, Google Dataprep, and Google Dataproc we will be cleaning and pre-processing the dataset for better         analysis.
 
 ##### Dashboard for Users and Dashboard for Data Engineers
 - We'll create two different dashboards one for our main audience/users i.e students or job-seekers and the other for Data Engineers.
@@ -78,13 +78,13 @@ The Dataset has data from fake_job_posting.csv downloaded from Kaggle. It's a da
 ##### GCP processing - ML
 - After cleaning the data and placing it in proper storage, we will start training dataset to run on AI platform.
 - Since most of the features are categorical, we will be using classification models for the prediction.
-- We will use differet models such as logistic regression and NLP prediction models to predict the the fake job posings.
+- We will use differet models such as logistic regression and Natural Language Processing to predict the the fake job posings.
 
 ##### Evaluation of Results
 - After training and building the models we will use AutoML Natural Language which provide and aggregate set of evaluation metrics how     well the model performs overall.
 - We will use precision and recall to measure how well the model is capturing information, and how much it's leaving out.
-- We will use confusion matrix that represents the percentage of times each label wll predicted in the training set during evaluation.
-- We will also use Mean Absolute error and mean squared rror to measure the distance between the predicted sentiment value and the         actual sentiment value.
+- We will use confusion matrix that represents the percentage of times each label will be predicted in the training set during             evaluation
+- We will also use Mean Absolute error and mean squared error to measure the distance between the predicted sentiment value and the       actual sentiment value.
 
 ##### Steps for production Model
 - To train and build the model we will use AutoML Natural Language UI.
