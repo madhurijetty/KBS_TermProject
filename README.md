@@ -114,4 +114,5 @@ The Dataset has data from fake_job_posting.csv downloaded from Kaggle. It's a da
 ##### Final Dashboard for User Group
 - Final Dashboard will contain various charts identifying Fake job postings based on different factors such as: Company Profile,           Job-description, Benefits, Requirements, and Locations. 
 
+### 5. Research Citations
 
