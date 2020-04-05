@@ -119,6 +119,11 @@ The Dataset has data from fake_job_posting.csv downloaded from Kaggle. It's a da
 - Final Dashboard will contain various charts identifying Fake job postings based on different factors such as: Company Profile,           Job-description, Benefits, Requirements, and Locations. 
 
 ### 5. Research Citations
-1. Iup.edu. 2020. Scams - Student Employment - IUP.
-[online] Available at: <https://www.iup.edu/studentemployment/off-campus/scams/> [Accessed 5 April 2020].<br><br>
-Abstract:-   The scammer uses the job posting to get work seekers to provide personal information, including their Social Security number, credit card details and bank account details. The details is then used to access your credit card or bank account and to steal your identity.
+1. Iup.edu. 2020. Scams - Student Employment - IUP.[online]<br>
+Available at: <https://www.iup.edu/studentemployment/off-campus/scams/> [Accessed 5 April 2020].<br>
+Abstract:- Job's that sound too good to be true should raise a red flag for any college student. Fake job postings are being sent via unsolicited emails to student accounts and are even showing up in online job listing sites. Titles like "work from home" or "part-time job offer" are being sent to students. The scammer uses the job posting to get work seekers to provide personal information, including their Social Security number, credit card details and bank account details. The details is then used to access your credit card or bank account and to steal your identity.
+
+2.  Doyle, A., 2019. List Of Fake Job Scam Examples. [online]<br>
+The Balance Careers. <br>
+Available at: <https://www.thebalancecareers.com/list-of-fake-job-scam-examples-2062168> [Accessed 5 April 2020].<br>
+Abstract :- The critical process of hiring has relatively recently been ported to the cloud. Specifically, the automated systems responsible for completing the recruitment of new employees in an online fashion, aim to make the hiring process more immediate, accurate and cost-efficient. However, the online exposure of such traditional business procedures has introduced new points of failure that may lead to privacy loss for applicants and harm the reputation of organizations. So far, the most common case of Online Recruitment Frauds (ORF), is employment scam. Unlike relevant online fraud problems, the tackling of ORF has not yet received the proper attention, remaining largely unexplored until now. Responding to this need, the work at hand defines and describes the characteristics of this severe and timely novel cyber security research topic. At the same time, it contributes and evaluates the first to our knowledge publicly available dataset of 17,880 annotated job ads, retrieved from the use of a real-life system.
