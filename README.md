@@ -90,7 +90,7 @@ The Dataset has data from fake_job_posting.csv downloaded from Kaggle. It's a da
   <img src = "Linechart_fraudulent.JPG" width = "450" height = "350">
 </p>
 
-##### Please download fake_job_postings.ipynb jupyter notebook to access a more sophisticated dashboard on the dataset.
+##### Please download fake_job_postings.ipynb jupyter notebook and Dashboard to access a more sophisticated dashboard on the dataset.
 
 ### 4. Tentative plan for analysis on GCP
 
