@@ -61,16 +61,20 @@ The Dataset has data from fake_job_posting.csv downloaded from Kaggle. It's a da
 - Develop an initial idea of possible associations amongst the predictors, as well as between the predictors and the target variable.
 
 #### C. Preprocessing Phase
-- In this phase, First we'll try to find out which columns has null values in the dataset.
-- Then we will fill the missing values of the columns in the dataset.
-- We'll also look for outliers and try to remove them.
-- After that we'll check the correlation between the features (columns) to find out the most relevant features for the prediction.
+- In this phase, First we try to find out which columns has null values in the dataset.
+- Then we  fill the missing values of the columns in the dataset.
+- We also look for outliers and try to remove them.
+- After that we check the correlation between the features (columns) to find out the most relevant features for the prediction.
 - Download the fake_job_postings.ipynb Notebook to have a clear idea on the preprocessing done.
 
 ### 3. Dashboard for Users and Dashboard for Data Engineers
 - We'll create two different dashboards one for our main audience/users i.e students or job-seekers and the other for Data Engineers.
 - Dashboard for users will be more simplified and more action oriented for filters or parameters so that users would be able to           use it easily.
-### User Dash boards
+### User Dash boards: 
+- Created User Dashboard using Big Query and Google Data Studio.
+- Uploaded the pre-processed data on GCP cloud storage through big query.
+- Visualized the data and created diffrent charts using Data studio that are shown below.
+- https://cloud.google.com/bigquery/docs/bigquery-web-ui- link for the BigQuery web UI in the Cloud Console.
 
 #### 3.1. Bar chart of Fraudulent count  in various Industries
 
