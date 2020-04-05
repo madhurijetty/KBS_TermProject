@@ -55,25 +55,38 @@ The Dataset has data from fake_job_posting.csv downloaded from Kaggle. It's a da
 - function - Consulting, Engineering, Research, Sales etc.
 - fraudulent - target variable - Classification attribute.
 
-#### B.Tentative plan for analysis on GCP
-
-##### Explratory Data Analysis
-- We will use Cloud AutoML for delving into data
+#### B. Explratory Data Analysis
 - Examine important interrelationships between attributes
 - Identify interesting subsets of the observations
 - Develop an initial idea of possible associations amongst the predictors, as well as between the predictors and the target variable.
 
-##### Preprocessing Phase
+#### C. Preprocessing Phase
 - In this phase, First we'll try to find out which columns has null values in the dataset.
 - Then we will fill the missing values of the columns in the dataset.
 - We'll also look for outliers and try to remove them.
 - After that we'll check the correlation between the features (columns) to find out the most relevant features for the prediction.
-- Using Google Cloud Dataflow, Google Dataprep, and Google Dataproc we will be cleaning and pre-processing the dataset for better         analysis.
+- Download the fake_job_postings.ipynb Notebook to have a clear idea on the preprocessing done.
 
-##### Dashboard for Users and Dashboard for Data Engineers
+#### D. Dashboard for Users and Dashboard for Data Engineers
 - We'll create two different dashboards one for our main audience/users i.e students or job-seekers and the other for Data Engineers.
 - Dashboard for users will be more simplified and more action oriented for filters or parameters so that users would be able to           use it easily.
-- Dashboard for Data Engineers will be more advance.
+##### User Dash boards
+###### Bar chart of Fraudulent count  in various Industries
+<p align ="center">
+  <img src = "../Industry_fraudulent.JPG" width = "350">
+</p>
+ 
+###### Bar Chart representing Employment_type w.r.t Fraudulent based on Required Education 
+<p align ="center">
+  <img src = "../barchart_fraudulent.JPG" width = "350">
+</p>
+
+###### Line Chart representing fraudulent cases w.r.t employment type based on multiple variables 
+<p align ="center">
+  <img src = "../Linechart_fraudulent.JPG" width = "350">
+</p>
+
+#### E. Tentative plan for analysis on GCP
 
 ##### GCP processing - ML
 - After cleaning the data and placing it in proper storage, we will start training dataset to run on AI platform.
