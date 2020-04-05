@@ -74,7 +74,7 @@ The Dataset has data from fake_job_posting.csv downloaded from Kaggle. It's a da
 - Created User Dashboard using Big Query and Google Data Studio.
 - Uploaded the pre-processed data on GCP cloud storage through big query.
 - Visualized the data and created diffrent charts using Data studio that are shown below.
-- https://cloud.google.com/bigquery/docs/bigquery-web-ui- link for the BigQuery web UI in the Cloud Console.
+- https://cloud.google.com/bigquery/docs/quickstarts/quickstart-web-ui link for the BigQuery web UI in the Cloud Console and step by step explanation of loading and cleaning the dataset.
 
 #### 3.1. Bar chart of Fraudulent count  in various Industries
 
