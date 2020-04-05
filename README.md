@@ -90,7 +90,9 @@ The Dataset has data from fake_job_posting.csv downloaded from Kaggle. It's a da
   <img src = "Linechart_fraudulent.JPG" width = "450" height = "350">
 </p>
 
-#### E. Tentative plan for analysis on GCP
+##### Please download fake_job_postings.ipynb jupyter notebook to access a more sophisticated dashboard on the dataset.
+
+### 4. Tentative plan for analysis on GCP
 
 ##### GCP processing - ML
 - After cleaning the data and placing it in proper storage, we will start training dataset to run on AI platform.
