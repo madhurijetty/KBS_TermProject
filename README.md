@@ -71,19 +71,23 @@ The Dataset has data from fake_job_posting.csv downloaded from Kaggle. It's a da
 - We'll create two different dashboards one for our main audience/users i.e students or job-seekers and the other for Data Engineers.
 - Dashboard for users will be more simplified and more action oriented for filters or parameters so that users would be able to           use it easily.
 ##### User Dash boards
+
 ###### Bar chart of Fraudulent count  in various Industries
+
 <p align ="center">
-  <img src = "../Industry_fraudulent.JPG" width = "350">
+  <img src = "Industry_fraudulent.JPG" width = "450" height = "350">
 </p>
- 
+
 ###### Bar Chart representing Employment_type w.r.t Fraudulent based on Required Education 
+
 <p align ="center">
-  <img src = "../barchart_fraudulent.JPG" width = "350">
+  <img src = "barchart_fraudulent.JPG" width = "450" height = "350">
 </p>
 
 ###### Line Chart representing fraudulent cases w.r.t employment type based on multiple variables 
+
 <p align ="center">
-  <img src = "../Linechart_fraudulent.JPG" width = "350">
+  <img src = "Linechart_fraudulent.JPG" width = "450" height = "350">
 </p>
 
 #### E. Tentative plan for analysis on GCP
