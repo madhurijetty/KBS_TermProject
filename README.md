@@ -119,4 +119,6 @@ The Dataset has data from fake_job_posting.csv downloaded from Kaggle. It's a da
 - Final Dashboard will contain various charts identifying Fake job postings based on different factors such as: Company Profile,           Job-description, Benefits, Requirements, and Locations. 
 
 ### 5. Research Citations
-
+1. Iup.edu. 2020. Scams - Student Employment - IUP.
+[online] Available at: <https://www.iup.edu/studentemployment/off-campus/scams/> [Accessed 5 April 2020].
+Abstract:-   The scammer uses the job posting to get work seekers to provide personal information, including their Social Security number, credit card details and bank account details. The details is then used to access your credit card or bank account and to steal your identity.
