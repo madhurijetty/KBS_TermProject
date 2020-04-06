@@ -129,11 +129,10 @@ Available at: <https://www.thebalancecareers.com/list-of-fake-job-scam-examples-
 
 3. Sangdi Lin, Bahareh Azarnoush, George C. Runger, Article 2018 - Data Preparation. [online] <br>
 Research Gate. <br>
-Available at: https://www.researchgate.net/publication/316113863_Data_Preparation [Accessed 6 April 2020]. <br>
+Available at: https://www.researchgate.net/publication/316113863_Data_Preparation [Accessed 6 April 2020].
 
-
-<br><br>
-Abstract:- Recently the crucial recruiting process has been porting to the cloud. In particular, the automated systems that are responsible for completing the online recruiting of new hires seek to make the hiring process more rapid, efficient and cost-effective.
+Abstract:- 
+Recently the crucial recruiting process has been porting to the cloud. In particular, the automated systems that are responsible for completing the online recruiting of new hires seek to make the hiring process more rapid, efficient and cost-effective.
 However, the online disclosure of these conventional business practices has created new points of failure which can lead to loss of applicants 'privacy and damage organizations' credibility. The most popular case of Online Recruitment Frauds (ORF), so far, is work scam.Unlike relevant online fraud problems, the tackling of ORF has not yet received the proper attention, remaining largely unexplored until now.<br>
 Job's that sound too good to be true should raise a red flag for any college student.Fake job postings are being sent via unsolicited emails to student accounts and are even showing up in online job listing sites. Titles like "work from home" or "part-time job offer" are being sent to students.The scammer uses the job posting to get work seekers to provide personal information, including their Social Security number, credit card details and bank account details.The details is then used to access your credit card or bank account and to steal your identity.
   
