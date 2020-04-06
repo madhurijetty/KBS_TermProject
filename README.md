@@ -127,7 +127,9 @@ Available at: <https://www.iup.edu/studentemployment/off-campus/scams/> [Accesse
 The Balance Careers. <br>
 Available at: <https://www.thebalancecareers.com/list-of-fake-job-scam-examples-2062168> [Accessed 5 April 2020].<br>
 
-3. 
+3. Sangdi Lin, Bahareh Azarnoush, George C. Runger, Article Feb 2018 - Data Preparation. [online] <br>
+Research Gate. <br>
+Available at: https://www.researchgate.net/publication/316113863_Data_Preparation [Accessed 6 April 2020]. <br>
 
 
 <br><br>
