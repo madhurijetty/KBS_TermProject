@@ -61,10 +61,11 @@ The Dataset has data from fake_job_posting.csv downloaded from Kaggle. It's a da
 - Develop an initial idea of possible associations amongst the predictors, as well as between the predictors and the target variable.
 
 #### C. Preprocessing Phase
-- In this phase, First we try to find out which columns has null values in the dataset.
-- Then we  fill the missing values of the columns in the dataset.
-- We also look for outliers and try to remove them.
-- After that we check the correlation between the features (columns) to find out the most relevant features for the prediction.
+- In this phase, Firstly we checked for the missing values in the dataset and we found out that out of 18 columns 12 columns have the     missing/null values.
+- Before fixing the missing values, we looked for the number of categorical and numerical variables in the dataset and found out that     most of the variables are categorical (13 categorical, 5 numerical ).
+- Since most of the columns are categorical, we replaced the missing values with suitable values according to the domain of the           variable by using fillna() function.
+- We have also dropped some of the columns such as "salary_range", "company_profile", and "benefits" as these colomns mostly have         missing values. Hence, they won't make any impact on predictions.
+- After that we have performed the visualization on our cleaned and pre-processed data to check the behaviour/trend of different           columns.
 - Download the fake_job_postings.ipynb Notebook to have a clear idea on the preprocessing done.
 
 ### 3. Dashboard for Users and Dashboard for Data Engineers
@@ -136,7 +137,3 @@ Recently the crucial recruiting process has been porting to the cloud. In partic
 However, the online disclosure of these conventional business practices has created new points of failure which can lead to loss of applicants 'privacy and damage organizations' credibility. The most popular case of Online Recruitment Frauds (ORF), so far, is work scam.Unlike relevant online fraud problems, the tackling of ORF has not yet received the proper attention, remaining largely unexplored until now.<br>
 Job's that sound too good to be true should raise a red flag for any college student.Fake job postings are being sent via unsolicited emails to student accounts and are even showing up in online job listing sites. Titles like "work from home" or "part-time job offer" are being sent to students.The scammer uses the job posting to get work seekers to provide personal information, including their Social Security number, credit card details and bank account details.The details is then used to access your credit card or bank account and to steal your identity.
   
-
-
-
-
