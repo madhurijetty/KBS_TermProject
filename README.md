@@ -66,7 +66,7 @@ The Dataset has data from fake_job_posting.csv downloaded from Kaggle. It's a da
 - Since most of the columns are categorical, we replaced the missing values with suitable values according to the domain of the           variable by using fillna() function.
 - We have also dropped some of the columns such as "salary_range", "company_profile", and "benefits" as these colomns mostly have         missing values. Hence, they won't make any impact on predictions.
 - After that we have performed the visualization on our cleaned and pre-processed data to check the behaviour/trend of different           columns.
-- Download the fake_job_postings.ipynb Notebook to have a clear idea on the preprocessing done.
+- To have a clear idea on how the preprocessing is done, please download the fake_job_postings.ipynb Notebook.
 
 ### 3. Dashboard for Users and Dashboard for Data Engineers
 - We'll create two different dashboards one for our main audience/users i.e students or job-seekers and the other for Data Engineers.
