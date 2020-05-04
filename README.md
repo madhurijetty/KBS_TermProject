@@ -77,6 +77,9 @@ The Dataset has data from fake_job_posting.csv downloaded from Kaggle. It's a da
 - Visualized the data and created diffrent charts using Data studio that are shown below.
 - https://cloud.google.com/bigquery/docs/quickstarts/quickstart-web-ui link for the BigQuery web UI in the Cloud Console and step by step explanation of loading and cleaning the dataset.
 
+### Final Dashboard for User Group
+- Final Dashboard will contain various charts identifying Fake job postings based on different factors such as: Company Profile,           Job-description, Benefits, Requirements, and Locations. 
+
 #### 3.1. Bar chart of Fraudulent count  in various Industries
 
 <p align ="center">
@@ -97,12 +100,29 @@ The Dataset has data from fake_job_posting.csv downloaded from Kaggle. It's a da
 
 ##### Please download fake_job_postings.ipynb jupyter notebook and Fake_Job_Postings_Report.pdf to access a more sophisticated dashboard on the dataset.
 
-### 4. Tentative plan for analysis on GCP
+## After preprocessing phase, We used two approaches for this project:
+- Model creation using AutoML (jupyter notebook: Fake_Job_Posting_Prediction)
+- Model creation without AutoML (jupyter notebook: Fake_Job_Posting_Prediction_Pipeline
 
-##### GCP processing - ML
-- After cleaning the data and placing it in proper storage, we will start training dataset to run on AI platform.
-- Since most of the features are categorical, we will be using classification models for the prediction.
-- We will use differet models such as logistic regression and Natural Language Processing to predict the the fake job posings.
+### Model Creation without AutoML
+### 4. Analyze, Scale and Transform Variables 
+
+#### Feature Reduction
+- Selected the important features from the dataset and created two dataframes having independent and dependent variables.
+- Separated the features into numerical and categorical features to create a pipeline in order to scale and encode the data.
+- Created the pipeline to process the transformation, scaling, and encoding using the Sklearn Pipeline.
+
+#### Sampling
+- Undersampled the data using RandomUnderSampler in order to avoid the model overfitting.
+
+#### Splitting
+- Splitted the dataset into train and test  using train_test_split.
+- The split is done on the order of 70/30.
+
+### 5. Modeling
+
+- Used
+
 
 ##### Evaluation of Results
 - After training and building the models we will use AutoML Natural Language which provide and aggregate set of evaluation metrics how     well the model performs overall.
@@ -116,8 +136,7 @@ The Dataset has data from fake_job_posting.csv downloaded from Kaggle. It's a da
 - Then deploy the models and get predictions.
 - Finally, we will evaluate the models.
 
-##### Final Dashboard for User Group
-- Final Dashboard will contain various charts identifying Fake job postings based on different factors such as: Company Profile,           Job-description, Benefits, Requirements, and Locations. 
+
 
 ### 5. Research Citations
 1. Iup.edu. 2020. Scams - Student Employment - IUP.[online]<br>
