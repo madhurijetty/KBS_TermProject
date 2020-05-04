@@ -16,8 +16,8 @@
 
 Member Name   |   Roles & Responsibilities   | 
 :--- | :--- | 
-**Uma Sai Madhuri Jetty** | Preprocessing and EDA of data and work with Ankita on developing dashboards using datalab, research and working on AutoML for modelling with Ankita and Project Documentation  | 
-**Ankita Kumari** | Preprocessing Data along with Madhuri and bigquery processing for data reading into datalab, Research on AutoML techniques along with Madhuri and project documentation | 
+**Uma Sai Madhuri Jetty** | Preprocess and EDA of data, work with Ankita on developing dashboards using datalab, research and work on AutoML for modelling with Ankita and Project Documentation  | 
+**Ankita Kumari** | Preprocess Data along with Madhuri and bigquery processing for data reading into datalab, Research on AutoML techniques along with Madhuri and project documentation | 
 **Sahithi Priya Gutta** | Research dataset and work with Shahi on reasearching and developing models manually and project documentation | 
 **Ashesh Shahi** | Worked with Sahithi on researching dataset, reasearching and developing models manually and project documentation| 
 ***
@@ -78,7 +78,7 @@ The Dataset has data from fake_job_posting.csv downloaded from Kaggle. It's a da
 - https://cloud.google.com/bigquery/docs/quickstarts/quickstart-web-ui link for the BigQuery web UI in the Cloud Console and step by step explanation of loading and cleaning the dataset.
 
 #### Final Dashboard for User Group
-- Final Dashboard will contain various charts identifying Fake job postings based on different factors such as: Company Profile,           Job-description, Benefits, Requirements, and Locations. 
+- Final Dashboard contain various charts identifying Fake job postings based on different factors such as: Company Profile,           Job-description, Benefits, Requirements, and Locations. 
 
 #### 3.1. Bar chart of Fraudulent count  in various Industries
 
@@ -100,7 +100,7 @@ The Dataset has data from fake_job_posting.csv downloaded from Kaggle. It's a da
 
 ##### Please download fake_job_postings.ipynb jupyter notebook and Fake_Job_Postings_Report.pdf to access a more sophisticated dashboard on the dataset.
 
-### After preprocessing phase, We used two approaches for modeling the da:
+### After preprocessing phase, We used two approaches for modeling the data:
 - Modeling data using AutoML (jupyter notebook: Fake_Job_Posting_Prediction)
 - Modeling data without AutoML (jupyter notebook: Fake_Job_Posting_Prediction_Pipeline)
 
