@@ -15,7 +15,7 @@
 ## Team Name: Data Diggers 
 
 Member Name   |   Roles & Responsibilities   | 
-:---: | :--- | 
+:--- | :--- | 
 **Uma Sai Madhuri Jetty** | Preprocessing and EDA of data and work with Ankita on developing dashboards using datalab, research and working on AutoML for modelling with Ankita and Project Documentation  | 
 **Ankita Kumari** | Preprocessing Data along with Madhuri and bigquery processing for data reading into datalab, Research on AutoML techniques along with Madhuri and project documentation | 
 **Sahithi Priya Gutta** | Research dataset and work with Shahi on reasearching and developing models manually and project documentation | 
