@@ -15,8 +15,8 @@
 ## Team Name: Data Diggers 
 
 Member Name   |   Roles & Responsibilities   | 
---- | --- | 
-**Uma Sai Madhuri Jetty** | Preprocess and EDA of data and work with Ankita on developing dashboards using datalab, research and working on AutoML for modelling with Ankita and Project Documentation  | 
+:---: | :--- | 
+**Uma Sai Madhuri Jetty** | Preprocessing and EDA of data and work with Ankita on developing dashboards using datalab, research and working on AutoML for modelling with Ankita and Project Documentation  | 
 **Ankita Kumari** | Preprocessing Data along with Madhuri and bigquery processing for data reading into datalab, Research on AutoML techniques along with Madhuri and project documentation | 
 **Sahithi Priya Gutta** | Research dataset and work with Shahi on reasearching and developing models manually and project documentation | 
 **Ashesh Shahi** | Worked with Sahithi on researching dataset, reasearching and developing models manually and project documentation| 
@@ -117,7 +117,8 @@ The Dataset has data from fake_job_posting.csv downloaded from Kaggle. It's a da
 
 ##### 4.1.2. Modeling
 - Used H2O software to perform AutoML.
-- Used deault models provided by H2O for the modeling.
+- http://docs.h2o.ai/h2o/latest-stable/h2o-docs/welcome.html link for the H2O AutoML and step by step explanation of downloading,   installing and using AutoML.
+- Used default models provided by H2O for the modeling.
 - In order to improve the predictions we tuned the hyper parameters of Random Forest Estimator and Deep Learning Estimator.
 
 ##### 4.1.3. Evaluation of Results
@@ -126,7 +127,6 @@ The Dataset has data from fake_job_posting.csv downloaded from Kaggle. It's a da
 model_id | auc | logloss | aucpr | mean_per_class_error | rmse | mse |
 :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 DeepLearning | 0.521918 | 0.189222 | 0.0493109 | 0.480597 | 0.211393 | 0.0446869 |
-***
 
 #### 4.2. Modeling data without using AutoML
 ##### 4.2.1. Analyze, Scale and Transform Variables 
