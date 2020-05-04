@@ -35,7 +35,7 @@ Therefore, we propose a solution to which helps to identify the fradulent jobs u
 
 ### 2. Domain and Data: Data Description
 
-#### A. Source and Size of Data
+#### 2.1. Source and Size of Data
 The Dataset has data from fake_job_posting.csv downloaded from Kaggle. It's a dataset of 48 MB, owned by Shivam Bansal. There are total 18 columns in the data file.
 - job_id - Unique Job ID
 - title - The title of the job ad entry.
@@ -56,12 +56,12 @@ The Dataset has data from fake_job_posting.csv downloaded from Kaggle. It's a da
 - function - Consulting, Engineering, Research, Sales etc.
 - fraudulent - target variable - Classification attribute.
 
-#### B. Explratory Data Analysis
+#### 2.2. Explratory Data Analysis
 - Examine important interrelationships between attributes
 - Identify interesting subsets of the observations
 - Develop an initial idea of possible associations amongst the predictors, as well as between the predictors and the target variable.
 
-#### C. Preprocessing Phase
+#### 2.3. Preprocessing Phase
 - In this phase, Firstly we checked for the missing values in the dataset and we found out that out of 18 columns 12 columns have the     missing/null values.
 - Before fixing the missing values, we looked for the number of categorical and numerical variables in the dataset and found out that     most of the variables are categorical (13 categorical, 5 numerical ).
 - Since most of the columns are categorical, we replaced the missing values with suitable values according to the domain of the           variable by using fillna() function.
@@ -75,8 +75,10 @@ The Dataset has data from fake_job_posting.csv downloaded from Kaggle. It's a da
 - Model creation using AutoML (jupyter notebook: Fake_Job_Posting_Prediction)
 - Model creation without AutoML (jupyter notebook: Fake_Job_Posting_Prediction_Pipeline
 
-### A. Model Creation using AutoML
-#### 1. Analyze, Scale and Transform Variables 
+### 3. Modeling
+
+### 1. Model Creation using AutoML
+#### 1.1. Analyze, Scale and Transform Variables 
 - Selected the important features from the dataset and created two dataframes having independent and dependent variables.
 - Used one hot encoding to encode the categorical variables (independent) using pandas get_dummies.
 - Then, concatinated the independent and dependent datasets into a single dataframe since the H2O requries data to be uploaded to it for   processing.
@@ -84,17 +86,17 @@ The Dataset has data from fake_job_posting.csv downloaded from Kaggle. It's a da
 - Splitted the dataset into train and test using train_test_split.
 - The split is done on the order of 70/30.
 
-#### 2. Modeling
+#### 1.2. Modeling
 - Used H2O software to perform AutoML.
 - Used deault models provided by H2O for the modeling.
 - In order to improve the predictions we tuned the hyper parameters of Random Forest Estimator and Deep Learning Estimator.
 
-#### 3. Evaluation of Results
+#### 1.3. Evaluation of Results
 - Used RMSE, MSE, AUC, AUCPR, and Mean_per_Class_Error to check the presiction score.
 - The best prediction score that we achieved is 53.46%.
 
-## B. Model Creation without AutoML
-#### 1. Analyze, Scale and Transform Variables 
+## 2. Model Creation without AutoML
+#### 2.1. Analyze, Scale and Transform Variables 
 - Selected the important features from the dataset and created two dataframes having independent and dependent variables.
 - Separated the features into numerical and categorical features to create a pipeline in order to scale and encode the data.
 - Created the pipeline to process the transformation, scaling, and encoding using the Sklearn Pipeline.
@@ -102,16 +104,16 @@ The Dataset has data from fake_job_posting.csv downloaded from Kaggle. It's a da
 - Splitted the dataset into train and test using train_test_split.
 - The split is done on the order of 70/30.
 
-#### 2. Modeling
+#### 2.2. Modeling
 - Firstly, we used Logistic Regression Model and got the prediction score of 81.35%.
 - Afterwards, used Random Forest Classifier Model to improve the prediction score, and got the prediction score of 83.55%.
 - We tried several other models, but the Random Forest Classifier gave us the best prediction score.
 
-#### 3. Evaluation of Results
+#### 2.3. Evaluation of Results
 - Evaluated the Logistic Regression Model using mean absolute error.
 - Evaluated the Random Forest Classifier using cross validation score.
 
-### 3. Dashboard for Users and Dashboard for Data Engineers
+### 4. Dashboard for Users and Dashboard for Data Engineers
 - We'll create two different dashboards one for our main audience/users i.e students or job-seekers and the other for Data Engineers.
 - Dashboard for users will be more simplified and more action oriented for filters or parameters so that users would be able to           use it easily.
 ### User Dash boards: 
@@ -123,19 +125,19 @@ The Dataset has data from fake_job_posting.csv downloaded from Kaggle. It's a da
 ### Final Dashboard for User Group
 - Final Dashboard will contain various charts identifying Fake job postings based on different factors such as: Company Profile,           Job-description, Benefits, Requirements, and Locations. 
 
-#### 3.1. Bar chart of Fraudulent count  in various Industries
+#### 4.1. Bar chart of Fraudulent count  in various Industries
 
 <p align ="center">
   <img src = "Industry_fraudulent.JPG" width = "450" height = "350">
 </p>
 
-#### 3.2. Bar Chart representing Employment_type w.r.t Fraudulent based on Required Education 
+#### 4.2. Bar Chart representing Employment_type w.r.t Fraudulent based on Required Education 
 
 <p align ="center">
   <img src = "barchart_fraudulent.JPG" width = "450" height = "350">
 </p>
 
-#### 3.3. Line Chart representing fraudulent cases w.r.t employment type based on multiple variables 
+#### 4.3. Line Chart representing fraudulent cases w.r.t employment type based on multiple variables 
 
 <p align ="center">
   <img src = "Linechart_fraudulent.JPG" width = "450" height = "350">
