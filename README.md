@@ -69,7 +69,37 @@ The Dataset has data from fake_job_posting.csv downloaded from Kaggle. It's a da
 - After that we have performed the visualization on our cleaned and pre-processed data to check the behaviour/trend of different           columns.
 - To have a clear idea on how the preprocessing is done, please download the fake_job_postings.ipynb Notebook.
 
+### 3. Dashboard for Users and Dashboard for Data Engineers
+- We'll create two different dashboards one for our main audience/users i.e students or job-seekers and the other for Data Engineers.
+- Dashboard for users will be more simplified and more action oriented for filters or parameters so that users would be able to           use it easily.
+#### User Dash boards: 
+- Created User Dashboard using Big Query and Google Data Studio.
+- Uploaded the pre-processed data on GCP cloud storage through big query.
+- Visualized the data and created diffrent charts using Data studio that are shown below.
+- https://cloud.google.com/bigquery/docs/quickstarts/quickstart-web-ui link for the BigQuery web UI in the Cloud Console and step by step explanation of loading and cleaning the dataset.
 
+#### Final Dashboard for User Group
+- Final Dashboard will contain various charts identifying Fake job postings based on different factors such as: Company Profile,           Job-description, Benefits, Requirements, and Locations. 
+
+#### 4.1. Bar chart of Fraudulent count  in various Industries
+
+<p align ="center">
+  <img src = "Industry_fraudulent.JPG" width = "450" height = "350">
+</p>
+
+#### 4.2. Bar Chart representing Employment_type w.r.t Fraudulent based on Required Education 
+
+<p align ="center">
+  <img src = "barchart_fraudulent.JPG" width = "450" height = "350">
+</p>
+
+#### 4.3. Line Chart representing fraudulent cases w.r.t employment type based on multiple variables 
+
+<p align ="center">
+  <img src = "Linechart_fraudulent.JPG" width = "450" height = "350">
+</p>
+
+##### Please download fake_job_postings.ipynb jupyter notebook and Fake_Job_Postings_Report.pdf to access a more sophisticated dashboard on the dataset.
 
 ### After preprocessing phase, We used two approaches for this project:
 - Model creation using AutoML (jupyter notebook: Fake_Job_Posting_Prediction)
@@ -112,38 +142,6 @@ The Dataset has data from fake_job_posting.csv downloaded from Kaggle. It's a da
 ##### 2.3. Evaluation of Results
 - Evaluated the Logistic Regression Model using mean absolute error.
 - Evaluated the Random Forest Classifier using cross validation score.
-
-### 4. Dashboard for Users and Dashboard for Data Engineers
-- We'll create two different dashboards one for our main audience/users i.e students or job-seekers and the other for Data Engineers.
-- Dashboard for users will be more simplified and more action oriented for filters or parameters so that users would be able to           use it easily.
-#### User Dash boards: 
-- Created User Dashboard using Big Query and Google Data Studio.
-- Uploaded the pre-processed data on GCP cloud storage through big query.
-- Visualized the data and created diffrent charts using Data studio that are shown below.
-- https://cloud.google.com/bigquery/docs/quickstarts/quickstart-web-ui link for the BigQuery web UI in the Cloud Console and step by step explanation of loading and cleaning the dataset.
-
-#### Final Dashboard for User Group
-- Final Dashboard will contain various charts identifying Fake job postings based on different factors such as: Company Profile,           Job-description, Benefits, Requirements, and Locations. 
-
-#### 4.1. Bar chart of Fraudulent count  in various Industries
-
-<p align ="center">
-  <img src = "Industry_fraudulent.JPG" width = "450" height = "350">
-</p>
-
-#### 4.2. Bar Chart representing Employment_type w.r.t Fraudulent based on Required Education 
-
-<p align ="center">
-  <img src = "barchart_fraudulent.JPG" width = "450" height = "350">
-</p>
-
-#### 4.3. Line Chart representing fraudulent cases w.r.t employment type based on multiple variables 
-
-<p align ="center">
-  <img src = "Linechart_fraudulent.JPG" width = "450" height = "350">
-</p>
-
-##### Please download fake_job_postings.ipynb jupyter notebook and Fake_Job_Postings_Report.pdf to access a more sophisticated dashboard on the dataset.
 
 ### 5. Research Citations
 1. Iup.edu. 2020. Scams - Student Employment - IUP.[online]<br>
