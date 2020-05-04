@@ -77,8 +77,8 @@ The Dataset has data from fake_job_posting.csv downloaded from Kaggle. It's a da
 
 ### 3. Modeling
 
-### 1. Model Creation using AutoML
-#### 1.1. Analyze, Scale and Transform Variables 
+#### 1. Model Creation using AutoML
+##### 1.1. Analyze, Scale and Transform Variables 
 - Selected the important features from the dataset and created two dataframes having independent and dependent variables.
 - Used one hot encoding to encode the categorical variables (independent) using pandas get_dummies.
 - Then, concatinated the independent and dependent datasets into a single dataframe since the H2O requries data to be uploaded to it for   processing.
@@ -86,17 +86,17 @@ The Dataset has data from fake_job_posting.csv downloaded from Kaggle. It's a da
 - Splitted the dataset into train and test using train_test_split.
 - The split is done on the order of 70/30.
 
-#### 1.2. Modeling
+##### 1.2. Modeling
 - Used H2O software to perform AutoML.
 - Used deault models provided by H2O for the modeling.
 - In order to improve the predictions we tuned the hyper parameters of Random Forest Estimator and Deep Learning Estimator.
 
-#### 1.3. Evaluation of Results
+##### 1.3. Evaluation of Results
 - Used RMSE, MSE, AUC, AUCPR, and Mean_per_Class_Error to check the presiction score.
 - The best prediction score that we achieved is 53.46%.
 
-## 2. Model Creation without AutoML
-#### 2.1. Analyze, Scale and Transform Variables 
+#### 2. Model Creation without AutoML
+##### 2.1. Analyze, Scale and Transform Variables 
 - Selected the important features from the dataset and created two dataframes having independent and dependent variables.
 - Separated the features into numerical and categorical features to create a pipeline in order to scale and encode the data.
 - Created the pipeline to process the transformation, scaling, and encoding using the Sklearn Pipeline.
@@ -104,25 +104,25 @@ The Dataset has data from fake_job_posting.csv downloaded from Kaggle. It's a da
 - Splitted the dataset into train and test using train_test_split.
 - The split is done on the order of 70/30.
 
-#### 2.2. Modeling
+##### 2.2. Modeling
 - Firstly, we used Logistic Regression Model and got the prediction score of 81.35%.
 - Afterwards, used Random Forest Classifier Model to improve the prediction score, and got the prediction score of 83.55%.
 - We tried several other models, but the Random Forest Classifier gave us the best prediction score.
 
-#### 2.3. Evaluation of Results
+##### 2.3. Evaluation of Results
 - Evaluated the Logistic Regression Model using mean absolute error.
 - Evaluated the Random Forest Classifier using cross validation score.
 
 ### 4. Dashboard for Users and Dashboard for Data Engineers
 - We'll create two different dashboards one for our main audience/users i.e students or job-seekers and the other for Data Engineers.
 - Dashboard for users will be more simplified and more action oriented for filters or parameters so that users would be able to           use it easily.
-### User Dash boards: 
+#### User Dash boards: 
 - Created User Dashboard using Big Query and Google Data Studio.
 - Uploaded the pre-processed data on GCP cloud storage through big query.
 - Visualized the data and created diffrent charts using Data studio that are shown below.
 - https://cloud.google.com/bigquery/docs/quickstarts/quickstart-web-ui link for the BigQuery web UI in the Cloud Console and step by step explanation of loading and cleaning the dataset.
 
-### Final Dashboard for User Group
+#### Final Dashboard for User Group
 - Final Dashboard will contain various charts identifying Fake job postings based on different factors such as: Company Profile,           Job-description, Benefits, Requirements, and Locations. 
 
 #### 4.1. Bar chart of Fraudulent count  in various Industries
