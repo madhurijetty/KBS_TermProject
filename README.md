@@ -16,9 +16,9 @@
 
 Member Name   |   Roles & Responsibilities   | 
 :--- | :--- | 
-**Uma Sai Madhuri Jetty** | Preprocess and EDA of data, work with Ankita on developing dashboards using datalab, research and work on AutoML for modelling with Ankita and Project Documentation  | 
+**Uma Sai Madhuri Jetty** | Preprocess and EDA of data, work with Ankita on developing dashboards using datalab, research and work on AutoML for modelling with Ankita, Project Documentation and work with Sahithi on Project presentation  | 
 **Ankita Kumari** | Preprocess Data along with Madhuri and bigquery processing for data reading into datalab, Research on AutoML techniques along with Madhuri and project documentation | 
-**Sahithi Priya Gutta** | Research dataset and work with Shahi on reasearching and developing models manually and project documentation | 
+**Sahithi Priya Gutta** | Research dataset and work with Shahi on reasearching and developing models manually, project documentation and work with Madhuri on Project presentation  | 
 **Ashesh Shahi** | Worked with Sahithi on researching dataset, reasearching and developing models manually and project documentation| 
 ***
 
@@ -146,7 +146,10 @@ DeepLearning | 0.521918 | 0.189222 | 0.0493109 | 0.480597 | 0.211393 | 0.0446869
 - Evaluated the Logistic Regression Model using mean absolute error.
 - Evaluated the Random Forest Classifier using cross validation score.
 
-### 5. Research Citations
+### 5. Conclusion
+Our model can be used to idenify the fake jobs posted which can be used by Universities, Students and Job-seekers. Our model needs more improvements, but it is a good starting point.
+
+### 6. Research Citations
 1. Iup.edu. 2020. Scams - Student Employment - IUP.[online]<br>
 Available at: <https://www.iup.edu/studentemployment/off-campus/scams/> [Accessed 5 April 2020].<br>
 
