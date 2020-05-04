@@ -6,22 +6,21 @@
 
 <br/>
 
-## Team Name: Data Diggers
-
-Team Members                        Roles & Resposibilities           
-1. Uma Sai Madhuri Jetty        
-2. Sahithi Priya Gutta           
-3. Ankita Kumari               
-4. Ashesh Shahi                 
-
-<br/>
-
-
 ## Project Description 
 - The job market is hard enough to navigate without having to worry about some posting turning out to be a scam—or even just a dead end.
 - The project focuses on predicting which job descriptions are fraudulent or real using text data and meta data features.
 - Focuses on identifying key traits/features of job descriptions which are fraudulent in nature.
 - The main audience of this project will be the students and job- seekers looking for any job opportunities such as: internships, part-   time, full-time jobs.
+
+## Team Name: Data Diggers 
+
+Member Name   |   Roles & Responsibilities   | 
+--- | --- | 
+**Uma Sai Madhuri Jetty** | Preprocess and EDA of data and work with Ankita on developing dashboards using datalab, research and working on AutoML for modelling with Ankita and Project Documentation  | 
+**Ankita Kumari** | Preprocessing Data along with Madhuri and bigquery processing for data reading into datalab, Research on AutoML techniques along with Madhuri and project documentation | 
+**Sahithi Priya Gutta** | Research dataset and work with Shahi on reasearching and developing models manually and project documentation | 
+**Ashesh Shahi** | Worked with Sahithi on researching dataset, reasearching and developing models manually and project documentation| 
+***
 
 ### 1. Reasearch Question
 Job boards can be host to scammers who are looking to defraud victims who are at their most suggestible and vulnerable 
@@ -81,19 +80,19 @@ The Dataset has data from fake_job_posting.csv downloaded from Kaggle. It's a da
 #### Final Dashboard for User Group
 - Final Dashboard will contain various charts identifying Fake job postings based on different factors such as: Company Profile,           Job-description, Benefits, Requirements, and Locations. 
 
-#### 4.1. Bar chart of Fraudulent count  in various Industries
+#### 3.1. Bar chart of Fraudulent count  in various Industries
 
 <p align ="center">
   <img src = "Industry_fraudulent.JPG" width = "450" height = "350">
 </p>
 
-#### 4.2. Bar Chart representing Employment_type w.r.t Fraudulent based on Required Education 
+#### 3.2. Bar Chart representing Employment_type w.r.t Fraudulent based on Required Education 
 
 <p align ="center">
   <img src = "barchart_fraudulent.JPG" width = "450" height = "350">
 </p>
 
-#### 4.3. Line Chart representing fraudulent cases w.r.t employment type based on multiple variables 
+#### 3.3. Line Chart representing fraudulent cases w.r.t employment type based on multiple variables 
 
 <p align ="center">
   <img src = "Linechart_fraudulent.JPG" width = "450" height = "350">
@@ -101,14 +100,14 @@ The Dataset has data from fake_job_posting.csv downloaded from Kaggle. It's a da
 
 ##### Please download fake_job_postings.ipynb jupyter notebook and Fake_Job_Postings_Report.pdf to access a more sophisticated dashboard on the dataset.
 
-### After preprocessing phase, We used two approaches for this project:
-- Model creation using AutoML (jupyter notebook: Fake_Job_Posting_Prediction)
-- Model creation without AutoML (jupyter notebook: Fake_Job_Posting_Prediction_Pipeline
+### After preprocessing phase, We used two approaches for modeling the da:
+- Modeling data using AutoML (jupyter notebook: Fake_Job_Posting_Prediction)
+- Modeling data without AutoML (jupyter notebook: Fake_Job_Posting_Prediction_Pipeline)
 
-### 3. Modeling
+### 4. Modeling
 
-#### 1. Model Creation using AutoML
-##### 1.1. Analyze, Scale and Transform Variables 
+#### 4.1 Modeling data using AutoML
+##### 4.1.1. Analyze, Scale and Transform Variables 
 - Selected the important features from the dataset and created two dataframes having independent and dependent variables.
 - Used one hot encoding to encode the categorical variables (independent) using pandas get_dummies.
 - Then, concatinated the independent and dependent datasets into a single dataframe since the H2O requries data to be uploaded to it for   processing.
@@ -116,30 +115,34 @@ The Dataset has data from fake_job_posting.csv downloaded from Kaggle. It's a da
 - Splitted the dataset into train and test using train_test_split.
 - The split is done on the order of 70/30.
 
-##### 1.2. Modeling
+##### 4.1.2. Modeling
 - Used H2O software to perform AutoML.
 - Used deault models provided by H2O for the modeling.
 - In order to improve the predictions we tuned the hyper parameters of Random Forest Estimator and Deep Learning Estimator.
 
-##### 1.3. Evaluation of Results
-- Used RMSE, MSE, AUC, AUCPR, and Mean_per_Class_Error to check the presiction score.
-- The best prediction score that we achieved is 53.46%.
+##### 4.1.3. Evaluation of Results
+- Used RMSE, MSE, AUC, AUCPR, and Mean_per_Class_Error to check the presiction score. <br>
 
-#### 2. Model Creation without AutoML
-##### 2.1. Analyze, Scale and Transform Variables 
+model_id | auc | logloss | aucpr | mean_per_class_error | rmse | mse |
+:---: | :---: | :---: | :---: | :---: | :---: | :---: |
+DeepLearning | 0.521918 | 0.189222 | 0.0493109 | 0.480597 | 0.211393 | 0.0446869 |
+***
+
+#### 4.2. Modeling data without using AutoML
+##### 4.2.1. Analyze, Scale and Transform Variables 
 - Selected the important features from the dataset and created two dataframes having independent and dependent variables.
-- Separated the features into numerical and categorical features to create a pipeline in order to scale and encode the data.
+- Separated the features into numerical and categorical features for scaling and encoding the data.
 - Created the pipeline to process the transformation, scaling, and encoding using the Sklearn Pipeline.
-- Undersampled the data using RandomUnderSampler in order to avoid the model overfitting.
+- Undersampled the data using RandomUnderSampler for balancing the classes and to avoid the model overfitting.
 - Splitted the dataset into train and test using train_test_split.
 - The split is done on the order of 70/30.
 
-##### 2.2. Modeling
+##### 4.2.2. Modeling
 - Firstly, we used Logistic Regression Model and got the prediction score of 81.35%.
-- Afterwards, used Random Forest Classifier Model to improve the prediction score, and got the prediction score of 83.55%.
-- We tried several other models, but the Random Forest Classifier gave us the best prediction score.
+- After trying multiple other models we came to a conclusion that  Random Forest Classifier gave us the best prediction score.
+- Random Forest Classifier Model got the prediction score of 83.55%.
 
-##### 2.3. Evaluation of Results
+##### 4.2.3. Evaluation of Results
 - Evaluated the Logistic Regression Model using mean absolute error.
 - Evaluated the Random Forest Classifier using cross validation score.
 
