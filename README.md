@@ -13,11 +13,12 @@
 - The main audience of this project will be the students and job- seekers looking for any job opportunities such as: internships, part-   time, full-time jobs.
 
 ## Team Name: Data Diggers 
-
-**Uma Sai Madhuri Jetty** </br>
-**Ankita Kumari** </br>
-**Sahithi Priya Gutta** </br>
-**Ashesh Shahi** </br>
+Team Members:
+1. Uma Sai Madhuri Jetty
+2. Ankita Kumari 
+3. Sahithi Priya Gutta 
+4. Ashesh Shahi 
+</br>
 
 ### 1. Reasearch Question
 Job boards can be host to scammers who are looking to defraud victims who are at their most suggestible and vulnerable 
