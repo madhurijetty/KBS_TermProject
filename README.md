@@ -18,7 +18,6 @@ Team Members:
 2. Ankita Kumari 
 3. Sahithi Priya Gutta 
 4. Ashesh Shahi 
-</br>
 
 ### 1. Reasearch Question
 Job boards can be host to scammers who are looking to defraud victims who are at their most suggestible and vulnerable 
