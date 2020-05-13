@@ -14,13 +14,10 @@
 
 ## Team Name: Data Diggers 
 
-Member Name   |   Roles & Responsibilities   | 
-:--- | :--- | 
-**Uma Sai Madhuri Jetty** | Preprocess and EDA of data, work with Ankita on developing dashboards using datalab, research and work on AutoML for modelling with Ankita, Project Documentation and work with Sahithi on Project presentation  | 
-**Ankita Kumari** | Preprocess Data along with Madhuri and bigquery processing for data reading into datalab, Research on AutoML techniques along with Madhuri and project documentation | 
-**Sahithi Priya Gutta** | Research dataset and work with Shahi on reasearching and developing models manually, project documentation and work with Madhuri on Project presentation  | 
-**Ashesh Shahi** | Worked with Sahithi on researching dataset, reasearching and developing models manually and project documentation| 
-***
+**Uma Sai Madhuri Jetty** </br>
+**Ankita Kumari** </br>
+**Sahithi Priya Gutta** </br>
+**Ashesh Shahi** </br>
 
 ### 1. Reasearch Question
 Job boards can be host to scammers who are looking to defraud victims who are at their most suggestible and vulnerable 
